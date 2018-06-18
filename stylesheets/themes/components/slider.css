@@ -1,0 +1,64 @@
+.slider {
+  position: relative;
+  color: #fff;
+
+}
+
+.slider-foreground {
+  position: relative;
+}
+
+.slider-overlay,
+.slider-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.slider-overlay {
+  opacity: 0.8;
+}
+
+.slider-background {
+  background-image: url(../../../img/dsfsdfsdfds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-image {
+  padding-right: 66px;
+  padding-top: 25px;
+}
+.slider-title {
+  font-size: 42px;
+  line-height: 1;
+}
+
+.slider-description {
+  margin-bottom: 34px;
+  font-size: 26px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.button-slider {
+  position: absolute;
+  top: 50%;
+  width: 25px;
+  height: 64px;
+  background-image: url('../../../img/arow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.button-slider-prev {
+  left: -25px;
+}
+
+.button-slider-next {
+  right: -25px;
+  transform: scale(-1, 1);
+}

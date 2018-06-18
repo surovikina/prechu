@@ -1,0 +1,22 @@
+.icon-check {
+  position: relative;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: var(--global-background);
+  margin-right: 10px;
+}
+
+.icon-check::after {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('../../../img/shape-2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

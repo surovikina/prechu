@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prechu</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="layout layout-header">
+            <div class="layout-item">
+              <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="layout-item item-navigation">
+              <nav class="main-navigation">
+                <div class="burger"><span></span></div>
+                <div class="layout layout-navigation">
+                  <div class="layout-item">
+                    <ul class="list navigation-list">
+                      <li><a class="navigation-link" href="">Home</a></li>
+                      <li><a class="navigation-link" href="">Products</a></li>
+                      <li><a class="navigation-link" href="">Services</a></li>
+                      <li><a class="navigation-link" href="">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="slider">
+          <div class="slider-background"></div>
+          <div class="slider-overlay"></div>
+          <div class="slider-foreground">
+            <div class="slider-item">
+              <div class="container">
+                <div class="layout layout-slider">
+                  <div class="layout-item">
+                    <div class="slider-image">
+                      <img src="img/iphone.png" alt="">
+                    </div>
+                  </div>
+                  <div class="layout-item">
+                    <h1 class="slider-title">Lorem Ipsum is simply </h1>
+                    <div class="slider-description">dummy text of the</br> printing & typesetting </div>
+                    <div class="slider-action">
+                      <a href="" class="button">
+                        <span class="icon icon-check"></span>Sign up now</a>
+                    </div>
+                  </div>
+                  <div class="layout-item">
+                    <div class="button-slider button-slider-prev"></div>
+                    <div class=" button-slider button-slider-next"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-list">
+          <div class="container">
+            <div class="grid grid-features">
+              <div class="grid-item">
+                <div class="card-item">
+                  <div class="card-icon card-icon-blue"></div>
+                  <div class="card-text">
+                    <h4 class="card-header">Contrary to popular</h4>
+                    <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item grid-item-features">
+                <div class="card-item">
+                  <div class="card-icon card-icon-red"></div>
+                  <div class="card-text">
+                    <h4 class="card-header">Contrary to popular</h4>
+                    <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item grid-item-features">
+                <div class="card-item">
+                  <div class="card-icon card-icon-yellow"></div>
+                  <div class="card-text">
+                    <h4 class="card-header">Contrary to popular</h4>
+                    <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="shoppin-card">The Shopping cart</h2>
+          <div class="layout layout-shoppin">
+            <div class="layout-item">
+              <div class="shoppin-img"><img src="img/cart.png" alt=""></div>
+            </div>
+            <div class="layout-item">
+              <h3 class="shopping-header">Some Bullet text here</h3>
+              <p class="shopping-text">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever When an unknown printer took a galley of type and scrambled It to make a type specimen book. It has survived not only five centuries But also the leap into electronic typesetting, Remaining essentially unchanged. It was popularised The release of Letraset sheets containing Lorem Ipsum passages</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <hr>
+      <footer class="page-footer">
+        <div class="layout layout-footer">
+          <div class="layout-item">
+            <div class="copyright">
+              Copyright © 2012-2013 cssauthor.com
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+    var mobMenu = document.querySelector('.burger');
+    var accordion = document.querySelector('.navigation-list');
+    var mobMenuClickHandler = function(){
+      if (!(accordion.classList.contains('hidden'))) {
+        accordion.classList.add('hidden');
+      } else
+      accordion.classList.remove('hidden');
+    };
+    mobMenu.addEventListener('click', mobMenuClickHandler);
+    </script>
+  </body>
+</html>

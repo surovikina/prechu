@@ -1,0 +1,25 @@
+.grid-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+ .grid-features .grid-item {
+  flex-basis: 250px;
+  flex-shrink: 0;
+}
+/*
+.grid-features .grid-item:not(:last-child) {
+  margin-right: 8vw;
+} */
+
+@media (max-width: 640px) {
+  .grid-features {
+    display: block;
+  }
+
+  .grid-features>*:not(:first-child) {
+    margin-top: 20px;
+  }
+}

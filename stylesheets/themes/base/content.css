@@ -1,0 +1,32 @@
+:root {
+  --base-h1-font-size: 48px;
+  --base-h1-line-height: 1.2;
+  --base-h2-font-size: 42px;
+  --base-h2-line-height: 1.3;
+  --base-h3-font-size: 26px;
+  --base-h3-line-height: 1.4;
+}
+
+body {
+  color: var(--global-color);
+}
+
+h2 {
+  color: #6f7173;
+}
+h3 {
+   color: #6f7173;
+ }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hidden {
+  opacity: 1 !important;;
+}
+
+a:hover {
+  text-decoration: none;
+}

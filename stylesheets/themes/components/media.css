@@ -1,0 +1,118 @@
+@media (max-width:  640px) {
+  /* Header start */
+  .navigation-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left:  0;
+    right:  0;
+    background-color:  white;
+    text-align: center;
+    opacity: 0;
+  }
+
+  .navigation-list li:not(:last-child) {
+    padding-right: 0;
+  }
+
+  .navigation-link {
+    display: block;
+    padding: 15px 0;
+  }
+  .burger {
+    width: 58px;
+    height: 44px;
+    background-color: var(--global-link-color);
+    border-radius: 4px;
+  }
+  .burger>span {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 2px;
+    top: 5px;
+    right: -10px;
+    background-color: white;
+  }
+  .burger>span::before,
+  .burger>span::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 36px;
+    height: 2px;
+    background-color: white;
+  }
+
+  .burger>span::before {
+    top: -10px;
+  }
+  .burger>span::after {
+    top: 10px;
+  }
+  /* Header end */
+
+  /* Slider start */
+  .slider-title {
+    margin-bottom: 5px;
+    font-size: 31px;
+    line-height: 1.1;
+  }
+  .slider-description {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .button-slider {
+    display: none;
+  }
+  /* Slider end */
+
+  /* Fearures start */
+  .card-list .container {
+    padding: 0;
+  }
+  .card-item {
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid #90909073;
+  }
+  .card-icon {
+    flex-shrink: 0;
+    flex-basis: 21vw;
+    height: 21vw;
+    margin-right: 3.5vw;
+    margin-left: 7vw;
+  }
+  .card-header {
+    font-size: 34px;
+    text-align: inherit;
+  }
+  .card-description {
+    font-size: 20px;
+    text-align: inherit;
+  }
+  /* Features end */
+
+  /* Shopping start */
+  .shoppin-img {
+    display: block;
+    width: 215px;
+    height: 162px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .shoppin-card{
+    text-align: center;
+  }
+  .shopping-header,
+  .shopping-text {
+    text-align: initial;
+  }
+  /* Shopping end */
+}
+
+@media (max-width:  640px) {
+
+}
