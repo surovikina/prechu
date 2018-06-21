@@ -55,10 +55,12 @@
 }
 
 .button-slider-prev {
-  left: -25px;
+  left: 5%;
+  z-index: 100;
 }
 
 .button-slider-next {
-  right: -25px;
+  right: 5%;
+  z-index: 100;
   transform: scale(-1, 1);
 }

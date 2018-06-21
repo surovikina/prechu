@@ -1,5 +1,5 @@
 @font-face {
-font-family: 'Segoe WP N';
+font-family: 'Segoe WP N', sans-serif;
 font-style: normal;
 font-weight: normal;
 src: local('Segoe WP N'), url('../../../fonts/SegoeWPN.woff') format('woff');
